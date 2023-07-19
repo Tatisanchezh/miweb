@@ -1,0 +1,209 @@
+/*BARRA DE NAV*/
+.navbar {
+  padding: 2rem;
+  background-color: #4d2578;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link{
+color: aliceblue;
+}
+
+/*ADAPATABLE RESPONSIVO*/
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+.section{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.hero{
+background-color: rgb(203, 189, 216);
+min-height: 450px;
+text-align: center;
+}
+.h1{
+font size: 2.5rem;
+font-family: 'Anton', sans-serif;
+font-family: 'Caprasimo', cursive;
+}
+.heroprincipal{
+padding: 3rem;
+}
+.heroimagen{
+width: 200px;
+height: 200px;
+margin: 20px;
+}
+.heroprincipal h2 {
+font-size: 1.5rem;
+color: white;
+}
+.hero-inferior-imagen{
+width: 300px;
+}
+@media screen  and (min-width: 700px) {
+  .hero-inferior-imagen {
+  max-width: 600px;}
+}
+.seccion-oscura{
+color: white;
+background-color: black;
+}
+/*sobremi*/
+.sobre-mi{
+height: 500px;
+padding: 10px;
+}
+.sobre-mi .contenedor{
+max-width: 600px;
+}
+.secciontitulo{
+  font-family: 'Rubik Dirt', cursive;
+font size: 2rem;
+padding: 15px 0;
+}
+.secciontexto{
+  font-family: 'Rubik Dirt', cursive;
+  font size: 1.2rem;
+  padding: 15px 0;
+}
+/*EXPERIENCIA*/
+.experiencia{
+padding: 20px;
+}
+.seccion-clara{
+color: black;
+background-color: white;
+}
+.experiencia .row div {
+  width: 400pxpx;
+  height: 150px;
+  
+}
+.row{
+  padding: 60px;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in;
+}
+.row:hover {
+  color: white;
+  background-color: #4d2578;
+}
+
+.cargo{
+font-size: 20px;
+font-family: 'Rubik Dirt', cursive;
+font-weight: bold;
+}
+.funcion{
+  font-size: 15px;
+  font-family: 'Rubik Dirt', cursive;
+  margin-top: 30px;
+}
+.iconos{
+font-size: 30px;
+  color: #7D16ED;
+  border-radius: 15px;
+}
+
+.badge-cont{
+font-size: 15px;
+font-weight: bold;
+margin: 10px 0;
+justify-content: center;
+}
+.badge{
+margin: 5px;
+display: flex;
+justify-content: center;
+}
+/*PROYECTOS*/
+.proyectos-recientes{
+padding: 40px;}
+.seccion-descrip{
+font-size: 18px;
+color: grey;
+font-family:'Rubik Dirt', cursive;
+}
+.secc-titu{
+  font-family:'Rubik Dirt', cursive;
+  font-size: 22px;
+}
+.img1{
+height: 100%;
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+}
+.titulos-galeria{
+  font-size: 20px;
+  color: black;
+  font-family:'Rubik Dirt', cursive;
+  margin-left: 100px;
+  margin-top: 20px;
+  }
+.container text-center{
+display: flex;
+justify-content: center;
+}
+.img-fluid{
+width: 900px;
+margin-left: 100px;
+}
+.despedida{
+background-color: #4d2578;
+color: white;
+font-size: 18px;
+font-family:'Rubik Dirt', cursive;
+height: 180px;
+margin-top: 80px;
+}
+.datoscon{
+font-size: 12px;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+.contacto .container2{
+max-width: 100%;
+min-height: 200px;
+padding: 20px;
+margin-top: 70px;
+}
+.contacto .rectangulo{
+margin-top: -4rem;
+background-color: #cfb3ea;
+border-radius: 10px;
+box-shadow: 0px 1px 4px 1px whitesmoke;
+}
+.contacto .row{
+width: 100%;
+display: flex;
+align-items: center;
+}
+.contacto .descripcion{
+color: white;
+font-size: 1.2rem;
+}
+.contacto button{
+color: white;
+font-weight: bold;
+background-color: transparent;
+border: 2px solid white;
+padding: 1.25em 2em;
+margin: 10px;
+border-radius: 100px;
+transition: all 0.2s ease-in-out;
+
+
+}
